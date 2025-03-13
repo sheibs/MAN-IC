@@ -1,33 +1,46 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             font-family: Arial, sans-serif;
-        }
-        table{
-            border-collapse: collapse;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            border: 1px black;
-            margin: 20px auto;
             text-align: center;
+        }
+
+        table {
+            width: 80%;
+            border: 1px solid black; 
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: #4A80D6;
+            color: white;
         }
     </style>
 </head>
+
 <body>
-    <h2 style="text-align: center;">Grade C's Table</h2>
-    <table border="1">
-        <thead style="background-color: #4A80D6; color: #ffffff;">
+
+    <h2>Grade C's Table</h2>
+    <table>
+        <thead>
             <tr>
                 <th>Hari</th>
                 <th>Waktu</th>
                 <th>Mata Pelajaran</th>
                 <th>Guru</th>
             </tr>
-
         </thead>
         <tbody>
             <tr>
@@ -42,20 +55,71 @@
                 <td>Seni Rupa</td>
                 <td>Ustazah Husnul</td>
             </tr>
-            <tr>
-                <td>Rabu</td>
-                <td>09:00 - 10:00</td>
-                <td>Matematika</td>
-                <td>Ustazah Andani</td>
-            </tr>
-            <tr>
-                <td>Kamis</td>
-                <td>09:00 - 12:00</td>
-                <td>Al-Qur'an Hadist</td>
-                <td>Ustazah Reny</td>
-            </tr>
         </tbody>
-
     </table>
+
+    <h2>Grade B's Table</h2>
+    <table>
+        <tr>
+            <th colspan="4">Laporan Mahasiswa</th>
+        </tr>
+        <tr>
+            <td colspan="2">Nama</td>
+            <td colspan="2">Alamat</td>
+        </tr>
+        <tr>
+            <td>Raka Gibran</td>
+            <td>Buming</td>
+            <td>Sudirman</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+
+    <h2>Grade A's Table</h2>
+    <table>
+        <tr>
+            <td style="font-weight: bold;" rowspan="3">No</td>
+            <td style="font-weight: bold;" rowspan="3">Nama</td>
+            <td style="font-weight: bold;" colspan="6">Hasil Ujian</td>
+            <td style="font-weight: bold;" rowspan="3">Keterangan</t>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;" colspan="2">HTML</td>
+            <td style="font-weight: bold;" colspan="2">CSS</td>
+            <td style="font-weight: bold;" colspan="2">JavaScript</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Initial</td>
+            <td style="font-weight: bold;">Final</td>
+            <td style="font-weight: bold;">Initial</td>
+            <td style="font-weight: bold;">Final</td>
+            <td style="font-weight: bold;">Initial</td>
+            <td style="font-weight: bold;">Final</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bill</td>
+            <td>80</td>
+            <td>90</td>
+            <td>78</td>
+            <td>85</td>
+            <td>85</td>
+            <td>90</td>
+            <td>Lulus</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Budi</td>
+            <td>78</td>
+            <td>90</td>
+            <td>88</td>
+            <td>90</td>
+            <td>80</td>
+            <td>88</td>
+            <td>Lulus</td>
+        </tr>
+    </table>
+
 </body>
+
 </html>
